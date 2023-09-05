@@ -1,9 +1,18 @@
 {
 	"author": "Max Backend",
+	"description": "A project that does something awesome",
+	"keywords": [
+		"server",
+		"freecodecamp",
+		"express"
+	],
+	"license": "MIT",
+	"version": "1.1.0",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
-		"express": "^4.14.0"
-	},
+		"express": "^4.16.4",
+		"helmet": "^3.14.0"
+	  },
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
